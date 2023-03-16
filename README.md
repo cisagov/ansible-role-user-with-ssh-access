@@ -1,7 +1,7 @@
-# skeleton-ansible-role #
+# ansible-role-user-with-ssh-access #
 
-[![GitHub Build Status](https://github.com/cisagov/skeleton-ansible-role/workflows/build/badge.svg)](https://github.com/cisagov/skeleton-ansible-role/actions)
-[![CodeQL](https://github.com/cisagov/skeleton-ansible-role/workflows/CodeQL/badge.svg)](https://github.com/cisagov/skeleton-ansible-role/actions/workflows/codeql-analysis.yml)
+[![GitHub Build Status](https://github.com/cisagov/ansible-role-user-with-ssh-access/workflows/build/badge.svg)](https://github.com/cisagov/ansible-role-user-with-ssh-access/actions)
+[![CodeQL](https://github.com/cisagov/ansible-role-user-with-ssh-access/workflows/CodeQL/badge.svg)](https://github.com/cisagov/ansible-role-user-with-ssh-access/actions/workflows/codeql-analysis.yml)
 
 This is a skeleton project that can be used to quickly get a new
 [cisagov](https://github.com/cisagov) Ansible role GitHub project
