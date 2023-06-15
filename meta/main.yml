@@ -15,9 +15,9 @@ galaxy_info:
   min_ansible_version: "2.10"
   namespace: cisagov
   platforms:
-    - name: Amazon Linux 2023
+    - name: Amazon Linux
       versions:
-        - any
+        - "2023"
     - name: Debian
       versions:
         - buster
@@ -32,7 +32,6 @@ galaxy_info:
         - "2023"
     - name: Ubuntu
       versions:
-        - bionic
         - focal
         - jammy
   role_name: skeleton
