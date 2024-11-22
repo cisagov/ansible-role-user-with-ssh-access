@@ -13,9 +13,12 @@ updates:
       - dependency-name: actions/checkout
       - dependency-name: actions/setup-go
       - dependency-name: actions/setup-python
+      - dependency-name: cisagov/setup-env-github-action
       - dependency-name: crazy-max/ghaction-dump-context
       - dependency-name: crazy-max/ghaction-github-labeler
       - dependency-name: crazy-max/ghaction-github-status
+      - dependency-name: GitHubSecurityLab/actions-permissions
+      - dependency-name: hashicorp/setup-packer
       - dependency-name: hashicorp/setup-terraform
       - dependency-name: mxschmitt/action-tmate
       - dependency-name: step-security/harden-runner
@@ -28,10 +31,19 @@ updates:
       interval: weekly
 
   - directory: /
+<<<<<<< HEAD
     ignore:
       # Managed by cisagov/skeleton-ansible-role
       - dependency-name: ansible
       - dependency-name: ansible-core
+=======
+    # ignore:
+    #   # Managed by cisagov/skeleton-ansible-role
+    #   - dependency-name: ansible
+    #   - dependency-name: ansible-core
+    #   - dependency-name: molecule
+    #   - dependency-name: pytest-testinfra
+>>>>>>> e940403688abc64b9455c3903285c42bb978cc35
     package-ecosystem: pip
     schedule:
       interval: weekly
