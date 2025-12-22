@@ -1,6 +1,7 @@
 # ansible-role-user-with-ssh-access #
 
 [![GitHub Build Status](https://github.com/cisagov/ansible-role-user-with-ssh-access/workflows/build/badge.svg)](https://github.com/cisagov/ansible-role-user-with-ssh-access/actions)
+[![License](https://img.shields.io/github/license/cisagov/ansible-role-user-with-ssh-access)](https://spdx.org/licenses/)
 [![CodeQL](https://github.com/cisagov/ansible-role-user-with-ssh-access/workflows/CodeQL/badge.svg)](https://github.com/cisagov/ansible-role-user-with-ssh-access/actions/workflows/codeql-analysis.yml)
 
 This is a skeleton project that can be used to quickly get a new
